@@ -54,7 +54,7 @@ t=s/(4*n)*15/3600
 ### 经验跳动（每艘船每时）
 >数据来自[大地母亲再忽悠着你]
 ```java
-(l_lv*12+240)*(1+bonus_rate)*(1+buff_bonus_rate)*(mag/n);
+per_exp=(l_lv*12+240)*(1+bonus_rate)*(1+buff_bonus_rate)*(mag/n);
 ```
 其中：`l_lv`是指挥官等级，`bonus_rate`是舒适度加成的百分比，`buff_bonus_rate`是食物buff总和加成的百分比，`mag`是舰船倍率，`n`是同时获得经验的舰船数。
 舰船倍率和后宅舰船数的关系如下：
